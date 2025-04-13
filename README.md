@@ -5,7 +5,6 @@ on a custom CNN architecture designed using the reversed digits of a student ID.
 
 ## 🧑‍💻 Authors
 - **Artiom Maliovanii** — ID: `333814994`
-- **Aiman Hamze** — ID: `315818021`
 
 ## 🧠 Architecture Design
 The number of filters in each convolutional layer is derived from the reversed and grouped digits of the student ID `333814994`. This provides a unique yet consistent architecture used across all experiments. All models use:
