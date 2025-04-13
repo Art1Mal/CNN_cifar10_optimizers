@@ -4,10 +4,10 @@ This project compares the performance of various optimizers (SGD, Momentum, NAG,
 on a custom CNN architecture designed using the reversed digits of a student ID.
 
 ## 🧑‍💻 Authors
-- **Artiom Maliovanii**
+- **Art1Mal**
 
 ## 🧠 Architecture Design
-The number of filters in each convolutional layer is derived from the reversed and grouped digits of the student ID `333814994`. This provides a unique yet consistent architecture used across all experiments. All models use:
+A systematic approach was applied to define the number of filters in convolutional layers, using a reversed digit-based scheme to ensure reproducibility and architectural diversity without disclosing personal identifiers. All models use:
 
 - L2 Regularization = 0.001
 - Dropout = 0.3
